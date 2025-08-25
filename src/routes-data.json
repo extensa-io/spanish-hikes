@@ -1,0 +1,720 @@
+{
+  "routes": [
+    {
+      "id": "briones",
+      "number": 1,
+      "title": "Briones Medieval & Vineyards",
+      "date": "2025-08-28",
+      "dateDisplay": "Thu, Aug 28",
+      "distance": "9 km",
+      "duration": "3-4 hrs",
+      "difficulty": "Moderate",
+      "specialBadges": [],
+      "recommended": true,
+      "region": "rioja",
+      "location": {
+        "lat": 42.5456,
+        "lon": -2.7850,
+        "name": "Briones, La Rioja"
+      },
+      "center": [42.5456, -2.7850],
+      "zoom": 14,
+      "route": [
+        [42.5456, -2.7850],
+        [42.5440, -2.7820],
+        [42.5420, -2.7790],
+        [42.5380, -2.7750],
+        [42.5350, -2.7700],
+        [42.5330, -2.7650],
+        [42.5340, -2.7630],
+        [42.5380, -2.7680],
+        [42.5420, -2.7750],
+        [42.5440, -2.7800],
+        [42.5456, -2.7850]
+      ],
+      "markers": [
+        {
+          "coords": [42.5456, -2.7850],
+          "title": "Start/End",
+          "popup": "<b>Briones Village</b><br>Start/End point"
+        },
+        {
+          "coords": [42.5380, -2.7750],
+          "title": "Winery",
+          "popup": "<b>Dinastía Vivanco</b><br>Wine Museum"
+        },
+        {
+          "coords": [42.5330, -2.7650],
+          "title": "Winery",
+          "popup": "<b>Finca Valpiedra</b><br>Single Estate"
+        }
+      ],
+      "timeline": [
+        {"time": "7:30am", "activity": "Start from Briones plaza (cool morning, 18°C)"},
+        {"time": "8:30am", "activity": "Descend through terraced vineyards"},
+        {"time": "10:30am", "activity": "Return to village via panoramic trail"},
+        {"time": "11:30am", "activity": "Dinastía Vivanco wine museum tour"},
+        {"time": "2:00pm", "activity": "Lunch at Mesón Plaza (reserve ahead)"},
+        {"time": "4:00pm", "activity": "Finca Valpiedra tasting (cooler afternoon)"}
+      ],
+      "highlights": "Medieval hilltop village → Dinastía Vivanco museum → Finca Valpiedra bodega → Sierra de Cantabria views → Traditional guardian huts",
+      "wineries": [
+        {
+          "name": "Dinastía Vivanco",
+          "details": "Museum + tasting €25-35 · Tours: 11:30am, 1pm",
+          "phone": "+34 941 322 323"
+        },
+        {
+          "name": "Finca Valpiedra",
+          "details": "Single estate · €20pp · Min 2 people",
+          "phone": "+34 941 311 389"
+        }
+      ]
+    },
+    {
+      "id": "san-vicente",
+      "number": 2,
+      "title": "San Vicente Castle Loop",
+      "date": "2025-08-30",
+      "dateDisplay": "Sat, Aug 30",
+      "distance": "8.5 km",
+      "duration": "3 hrs",
+      "difficulty": "Moderate",
+      "specialBadges": [],
+      "recommended": true,
+      "region": "rioja",
+      "location": {
+        "lat": 42.5611,
+        "lon": -2.7567,
+        "name": "San Vicente de la Sonsierra, La Rioja"
+      },
+      "center": [42.5611, -2.7567],
+      "zoom": 14,
+      "route": [
+        [42.5611, -2.7567],
+        [42.5620, -2.7560],
+        [42.5630, -2.7550],
+        [42.5640, -2.7530],
+        [42.5635, -2.7510],
+        [42.5620, -2.7480],
+        [42.5600, -2.7460],
+        [42.5580, -2.7450],
+        [42.5560, -2.7470],
+        [42.5560, -2.7500],
+        [42.5570, -2.7520],
+        [42.5580, -2.7540],
+        [42.5600, -2.7560],
+        [42.5611, -2.7567]
+      ],
+      "markers": [
+        {
+          "coords": [42.5611, -2.7567],
+          "title": "Start/End",
+          "popup": "<b>San Vicente de la Sonsierra</b><br>Start/End"
+        },
+        {
+          "coords": [42.5640, -2.7530],
+          "title": "Castle",
+          "popup": "<b>Castle Ruins</b><br>360° views"
+        },
+        {
+          "coords": [42.5620, -2.7480],
+          "title": "Winery",
+          "popup": "<b>Remelluri</b><br>Exclusive bodega"
+        }
+      ],
+      "timeline": [
+        {"time": "8:00am", "activity": "Start from village plaza (weekend, start early)"},
+        {"time": "8:45am", "activity": "Reach castle ruins - 360° views"},
+        {"time": "9:30am", "activity": "Descend through Remelluri vineyards"},
+        {"time": "10:30am", "activity": "Follow Ebro River path"},
+        {"time": "11:00am", "activity": "Complete loop at village"},
+        {"time": "12:00pm", "activity": "Remelluri bodega tour (BOOK AHEAD!)"},
+        {"time": "2:30pm", "activity": "Late lunch with castle views"}
+      ],
+      "highlights": "12th-century castle → Remelluri vineyards → Ebro River → Guardian huts → Harvest preparations visible",
+      "wineries": [
+        {
+          "name": "Bodega Remelluri ⭐",
+          "details": "Exclusive, small production · €15pp · Appointment required",
+          "phone": "+34 945 331 801"
+        },
+        {
+          "name": "Señorío de San Vicente",
+          "details": "Single vineyard · €20pp · Tours: 11am, 1pm",
+          "phone": "+34 945 601 133"
+        }
+      ]
+    },
+    {
+      "id": "najera",
+      "number": 3,
+      "title": "Nájera Monastery Circuit",
+      "date": null,
+      "dateDisplay": "Optional",
+      "distance": "10 km",
+      "duration": "3.5 hrs",
+      "difficulty": "Easy-Moderate",
+      "specialBadges": [],
+      "recommended": false,
+      "region": "rioja",
+      "location": {
+        "lat": 42.4167,
+        "lon": -2.7333,
+        "name": "Nájera, La Rioja"
+      },
+      "center": [42.4167, -2.7333],
+      "zoom": 13,
+      "route": [
+        [42.4167, -2.7333],
+        [42.4180, -2.7300],
+        [42.4180, -2.7280],
+        [42.4190, -2.7250],
+        [42.4200, -2.7230],
+        [42.4210, -2.7210],
+        [42.4230, -2.7180],
+        [42.4250, -2.7130],
+        [42.4240, -2.7110],
+        [42.4220, -2.7100],
+        [42.4200, -2.7120],
+        [42.4180, -2.7150],
+        [42.4160, -2.7200],
+        [42.4150, -2.7250],
+        [42.4160, -2.7300],
+        [42.4167, -2.7333]
+      ],
+      "markers": [
+        {
+          "coords": [42.4167, -2.7333],
+          "title": "Start/End",
+          "popup": "<b>Nájera</b><br>Start/End"
+        },
+        {
+          "coords": [42.4200, -2.7230],
+          "title": "Monastery",
+          "popup": "<b>Santa María la Real</b>"
+        }
+      ],
+      "timeline": [
+        {"time": "9:00am", "activity": "Start from Nájera main plaza"},
+        {"time": "9:30am", "activity": "Follow Najerilla River path (cool morning)"},
+        {"time": "10:30am", "activity": "Visit Santa María la Real monastery"},
+        {"time": "11:30am", "activity": "Ascend through vineyard terraces"},
+        {"time": "12:30pm", "activity": "Reach high viewpoint"},
+        {"time": "1:30pm", "activity": "Return via Tricio direction"},
+        {"time": "2:30pm", "activity": "Complete loop back to Nájera"}
+      ],
+      "description": "This is the longest route - consider for a cooler day or split into two shorter walks."
+    },
+    {
+      "id": "altafulla",
+      "number": 4,
+      "title": "Altafulla to Tamarit Coastal",
+      "date": "2025-09-03",
+      "dateDisplay": "Tue, Sep 3",
+      "distance": "9 km",
+      "duration": "3 hrs",
+      "difficulty": "Easy",
+      "specialBadges": ["🏖️ Beach"],
+      "recommended": true,
+      "region": "tarragona",
+      "location": {
+        "lat": 41.1350,
+        "lon": 1.3850,
+        "name": "Altafulla, Tarragona"
+      },
+      "center": [41.1350, 1.3850],
+      "zoom": 14,
+      "route": [
+        [41.1350, 1.3850],
+        [41.1355, 1.3845],
+        [41.1360, 1.3840],
+        [41.1365, 1.3835],
+        [41.1370, 1.3830],
+        [41.1375, 1.3825],
+        [41.1380, 1.3820],
+        [41.1385, 1.3815],
+        [41.1390, 1.3810],
+        [41.1395, 1.3805],
+        [41.1390, 1.3800],
+        [41.1385, 1.3805],
+        [41.1380, 1.3810],
+        [41.1375, 1.3815],
+        [41.1370, 1.3820],
+        [41.1365, 1.3825],
+        [41.1360, 1.3830],
+        [41.1355, 1.3835],
+        [41.1350, 1.3850]
+      ],
+      "markers": [
+        {
+          "coords": [41.1350, 1.3850],
+          "title": "Start/End",
+          "popup": "<b>Altafulla Beach</b><br>Start/End + Swimming"
+        },
+        {
+          "coords": [41.1365, 1.3835],
+          "title": "Roman Site",
+          "popup": "<b>Villa dels Munts</b><br>Roman ruins"
+        },
+        {
+          "coords": [41.1395, 1.3805],
+          "title": "Castle",
+          "popup": "<b>Tamarit Castle</b><br>Medieval castle"
+        }
+      ],
+      "timeline": [
+        {"time": "8:30am", "activity": "Start from Altafulla beach parking"},
+        {"time": "9:30am", "activity": "Explore Villa dels Munts Roman ruins"},
+        {"time": "10:30am", "activity": "Coastal path to Tamarit Castle"},
+        {"time": "11:30am", "activity": "Loop back through vineyards"},
+        {"time": "12:00pm", "activity": "Beach swim (water 24°C! 🏊)"},
+        {"time": "1:30pm", "activity": "Seafood lunch at beach restaurant"},
+        {"time": "3:30pm", "activity": "Avgvstvs Forvm winery visit"}
+      ],
+      "highlights": "2nd-century Roman villa → Medieval castle on cliff → Mediterranean coastal path → DO Tarragona vineyards → Two beaches for swimming",
+      "wineries": [
+        {
+          "name": "Avgvstvs Forvm",
+          "details": "Roman heritage focus · €20pp · Tours: 10:30am, 12:30pm",
+          "phone": "+34 977 170 827"
+        }
+      ]
+    },
+    {
+      "id": "falset",
+      "number": 5,
+      "title": "Falset Wine Cooperatives",
+      "date": "2025-09-05",
+      "dateDisplay": "Thu, Sep 5",
+      "distance": "10 km",
+      "duration": "3.5 hrs",
+      "difficulty": "Moderate",
+      "specialBadges": ["🍇 Harvest"],
+      "recommended": true,
+      "region": "tarragona",
+      "location": {
+        "lat": 41.1467,
+        "lon": 0.8206,
+        "name": "Falset, Tarragona"
+      },
+      "center": [41.1467, 0.8206],
+      "zoom": 14,
+      "route": [
+        [41.1467, 0.8206],
+        [41.1480, 0.8220],
+        [41.1490, 0.8250],
+        [41.1510, 0.8270],
+        [41.1520, 0.8280],
+        [41.1540, 0.8290],
+        [41.1550, 0.8300],
+        [41.1545, 0.8320],
+        [41.1540, 0.8350],
+        [41.1520, 0.8340],
+        [41.1500, 0.8330],
+        [41.1480, 0.8300],
+        [41.1470, 0.8280],
+        [41.1460, 0.8240],
+        [41.1465, 0.8220],
+        [41.1467, 0.8206]
+      ],
+      "markers": [
+        {
+          "coords": [41.1467, 0.8206],
+          "title": "Start/End",
+          "popup": "<b>Falset</b><br>Start/End"
+        },
+        {
+          "coords": [41.1520, 0.8280],
+          "title": "Cooperative",
+          "popup": "<b>Wine Cooperative</b><br>Modernist building"
+        },
+        {
+          "coords": [41.1550, 0.8300],
+          "title": "Viewpoint",
+          "popup": "<b>Montsant Views</b><br>Panoramic point"
+        }
+      ],
+      "timeline": [
+        {"time": "7:30am", "activity": "Early start (inland = warmer)"},
+        {"time": "8:30am", "activity": "See harvest workers in vineyards"},
+        {"time": "10:00am", "activity": "Reach mountain viewpoint"},
+        {"time": "10:30am", "activity": "Arrive at Celler Cooperatiu"},
+        {"time": "11:00am", "activity": "Tour modernist cooperative"},
+        {"time": "1:00pm", "activity": "Lunch in Falset main plaza"},
+        {"time": "3:00pm", "activity": "Portal del Montsant tasting"}
+      ],
+      "highlights": "Montsant DO vineyards → Modernist architecture → Mountain hermitages → Harvest activity → Old vine Garnacha",
+      "wineries": [
+        {
+          "name": "Celler Cooperatiu Falset",
+          "details": "Modernist cathedral of wine · €10pp",
+          "phone": "+34 977 830 105"
+        },
+        {
+          "name": "Portal del Montsant",
+          "details": "Boutique winery · €15pp · Book ahead",
+          "phone": "+34 977 827 173"
+        }
+      ]
+    },
+    {
+      "id": "tarragona-roman",
+      "number": 6,
+      "title": "Tarragona Roman Heritage",
+      "date": null,
+      "dateDisplay": "Alternative",
+      "distance": "8 km",
+      "duration": "3 hrs",
+      "difficulty": "Easy",
+      "specialBadges": [],
+      "recommended": false,
+      "region": "tarragona",
+      "location": {
+        "lat": 41.1189,
+        "lon": 1.2445,
+        "name": "Tarragona"
+      },
+      "center": [41.1189, 1.2445],
+      "zoom": 13,
+      "route": [
+        [41.1147, 1.2589],
+        [41.1160, 1.2570],
+        [41.1180, 1.2550],
+        [41.1210, 1.2520],
+        [41.1250, 1.2480],
+        [41.1290, 1.2440],
+        [41.1320, 1.2400],
+        [41.1310, 1.2380],
+        [41.1280, 1.2350],
+        [41.1250, 1.2360],
+        [41.1230, 1.2380],
+        [41.1200, 1.2420],
+        [41.1180, 1.2450],
+        [41.1160, 1.2500],
+        [41.1150, 1.2550],
+        [41.1147, 1.2589]
+      ],
+      "markers": [
+        {
+          "coords": [41.1147, 1.2589],
+          "title": "Start/End",
+          "popup": "<b>Roman Amphitheatre</b><br>Start/End"
+        },
+        {
+          "coords": [41.1320, 1.2400],
+          "title": "Aqueduct",
+          "popup": "<b>Pont del Diable</b><br>Roman aqueduct"
+        }
+      ],
+      "timeline": [
+        {"time": "8:00am", "activity": "Start from Roman Amphitheatre"},
+        {"time": "8:30am", "activity": "Walk through old town to Mediterranean Balcony"},
+        {"time": "9:30am", "activity": "Hike north towards Pont del Diable"},
+        {"time": "11:00am", "activity": "Explore Roman aqueduct (best morning light)"},
+        {"time": "12:30pm", "activity": "Return via vineyard paths"},
+        {"time": "1:30pm", "activity": "Lunch in historic Tarragona center"}
+      ],
+      "highlights": "Roman amphitheatre → UNESCO World Heritage sites → Pont del Diable aqueduct → Mediterranean balcony → Historic city center",
+      "description": "UNESCO sites less crowded early morning. Combine with city exploration day."
+    },
+    {
+      "id": "costa-brava-cliffs",
+      "number": 7,
+      "title": "Costa Brava Cliff Trail · Begur to Sa Tuna",
+      "date": "2025-09-01",
+      "dateDisplay": "Mon, Sep 1",
+      "distance": "12 km",
+      "duration": "4 hrs",
+      "difficulty": "Moderate",
+      "specialBadges": ["🌊 Sea Views", "🏖️ Hidden Coves"],
+      "recommended": true,
+      "region": "costa-brava",
+      "location": {
+        "lat": 41.9574,
+        "lon": 3.2108,
+        "name": "Begur, Costa Brava"
+      },
+      "center": [41.9574, 3.2108],
+      "zoom": 14,
+      "route": [
+        [41.9574, 3.2108],
+        [41.9580, 3.2120],
+        [41.9590, 3.2140],
+        [41.9610, 3.2180],
+        [41.9630, 3.2200],
+        [41.9650, 3.2220],
+        [41.9660, 3.2240],
+        [41.9670, 3.2260],
+        [41.9675, 3.2280],
+        [41.9680, 3.2300],
+        [41.9685, 3.2320],
+        [41.9690, 3.2340],
+        [41.9574, 3.2108]
+      ],
+      "markers": [
+        {
+          "coords": [41.9574, 3.2108],
+          "title": "Start",
+          "popup": "<b>Begur Village</b><br>Medieval watchtowers"
+        },
+        {
+          "coords": [41.9650, 3.2220],
+          "title": "Viewpoint",
+          "popup": "<b>Cala Aiguablava</b><br>Panoramic sea views"
+        },
+        {
+          "coords": [41.9690, 3.2340],
+          "title": "Beach",
+          "popup": "<b>Sa Tuna Cove</b><br>Hidden fisherman's beach"
+        }
+      ],
+      "timeline": [
+        {"time": "8:00am", "activity": "Start from Begur's medieval center"},
+        {"time": "8:30am", "activity": "Descend to Cala Aiguablava via pine forest"},
+        {"time": "9:30am", "activity": "Walk clifftop path with dramatic sea views"},
+        {"time": "10:30am", "activity": "Reach hidden Cala Fornells"},
+        {"time": "11:30am", "activity": "Continue to Sa Tuna cove"},
+        {"time": "12:00pm", "activity": "Swimming & seafood lunch at Sa Tuna"},
+        {"time": "2:00pm", "activity": "Return via inland shepherd trails"}
+      ],
+      "highlights": "Medieval Begur towers → Dramatic limestone cliffs → Crystal-clear coves → Traditional fishing village → Pine forest trails",
+      "wineries": [
+        {
+          "name": "Celler Mas Oller",
+          "details": "Organic coastal wines · €12pp · Hidden vineyard 15min inland",
+          "phone": "+34 972 624 189"
+        }
+      ]
+    },
+    {
+      "id": "penedes-sant-sadurni",
+      "number": 8,
+      "title": "Sant Sadurní Secret Cavas · Underground Cellars",
+      "date": "2025-08-29",
+      "dateDisplay": "Fri, Aug 29",
+      "distance": "8 km",
+      "duration": "5 hrs",
+      "difficulty": "Easy",
+      "specialBadges": ["🥂 Hidden Cavas", "🕳️ Underground"],
+      "recommended": true,
+      "region": "penedes",
+      "location": {
+        "lat": 41.4292,
+        "lon": 1.7886,
+        "name": "Sant Sadurní d'Anoia, Penedès"
+      },
+      "center": [41.4292, 1.7886],
+      "zoom": 14,
+      "route": [
+        [41.4292, 1.7886],
+        [41.4310, 1.7900],
+        [41.4330, 1.7920],
+        [41.4350, 1.7940],
+        [41.4370, 1.7960],
+        [41.4380, 1.7980],
+        [41.4375, 1.8000],
+        [41.4360, 1.8020],
+        [41.4340, 1.8010],
+        [41.4320, 1.7990],
+        [41.4300, 1.7970],
+        [41.4292, 1.7886]
+      ],
+      "markers": [
+        {
+          "coords": [41.4292, 1.7886],
+          "title": "Start",
+          "popup": "<b>Sant Sadurní Station</b><br>Capital of Cava"
+        },
+        {
+          "coords": [41.4350, 1.7940],
+          "title": "Hidden Cellar",
+          "popup": "<b>Celler Bohigas</b><br>Family secret since 1924"
+        },
+        {
+          "coords": [41.4380, 1.7980],
+          "title": "Underground",
+          "popup": "<b>Caves Sumarroca</b><br>Historic underground cellars"
+        }
+      ],
+      "timeline": [
+        {"time": "10:00am", "activity": "Meet at Sant Sadurní train station"},
+        {"time": "10:30am", "activity": "Walk through historic vine terraces"},
+        {"time": "11:30am", "activity": "Celler Bohigas - family secrets tasting"},
+        {"time": "1:00pm", "activity": "Hidden lunch at Cal Blay Vinticinc"},
+        {"time": "3:00pm", "activity": "Sumarroca underground caves tour"},
+        {"time": "4:30pm", "activity": "Return via ancient Roman road"}
+      ],
+      "highlights": "Historic vine terraces → Family-run cellars since 1924 → Underground aging caves → Traditional Catalan cuisine → Roman road remnants",
+      "wineries": [
+        {
+          "name": "Celler Bohigas",
+          "details": "Family secrets since 1924 · €18pp · By appointment only",
+          "phone": "+34 938 991 241"
+        },
+        {
+          "name": "Caves Sumarroca",
+          "details": "Historic underground cellars · €25pp · Includes rare reserves",
+          "phone": "+34 938 912 112"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Cal Blay Vinticinc",
+          "details": "Hidden gem · Traditional Catalan · €35-45pp · Local hunters' cuisine",
+          "phone": "+34 938 183 198"
+        }
+      ]
+    },
+    {
+      "id": "reus-modernist-trail",
+      "number": 9,
+      "title": "Reus Modernist Route · Gaudí's Birthplace",
+      "date": "2025-09-02",
+      "dateDisplay": "Tue, Sep 2",
+      "distance": "7 km",
+      "duration": "4 hrs",
+      "difficulty": "Easy",
+      "specialBadges": ["🏛️ Modernist", "🍷 Vermouth"],
+      "recommended": true,
+      "region": "tarragona",
+      "location": {
+        "lat": 41.1557,
+        "lon": 1.1074,
+        "name": "Reus, Tarragona"
+      },
+      "center": [41.1557, 1.1074],
+      "zoom": 14,
+      "route": [
+        [41.1557, 1.1074],
+        [41.1570, 1.1080],
+        [41.1580, 1.1090],
+        [41.1590, 1.1100],
+        [41.1600, 1.1110],
+        [41.1610, 1.1120],
+        [41.1605, 1.1130],
+        [41.1595, 1.1125],
+        [41.1585, 1.1115],
+        [41.1575, 1.1105],
+        [41.1565, 1.1090],
+        [41.1557, 1.1074]
+      ],
+      "markers": [
+        {
+          "coords": [41.1557, 1.1074],
+          "title": "Start",
+          "popup": "<b>Gaudí Centre</b><br>Birth city of Antoni Gaudí"
+        },
+        {
+          "coords": [41.1590, 1.1100],
+          "title": "Modernist",
+          "popup": "<b>Casa Navàs</b><br>Lluís Domènech i Montaner"
+        },
+        {
+          "coords": [41.1610, 1.1120],
+          "title": "Vermouth",
+          "popup": "<b>Historic Vermouth Cellars</b><br>Traditional tastings"
+        }
+      ],
+      "timeline": [
+        {"time": "10:00am", "activity": "Start at Gaudí Centre Museum"},
+        {"time": "11:00am", "activity": "Walk modernist architecture route"},
+        {"time": "12:00pm", "activity": "Visit Casa Navàs (Domènech i Montaner)"},
+        {"time": "1:00pm", "activity": "Traditional vermouth tasting at historic cellars"},
+        {"time": "2:30pm", "activity": "Lunch at modernist-era restaurant"},
+        {"time": "3:30pm", "activity": "Return via Mercadal shopping district"}
+      ],
+      "highlights": "Gaudí birthplace → Lluís Domènech i Montaner architecture → Historic vermouth cellars → Traditional Catalan modernism → Art nouveau facades",
+      "wineries": [
+        {
+          "name": "Vermuts Miró",
+          "details": "Historic vermouth house since 1876 · €12pp · Traditional recipes",
+          "phone": "+34 977 330 431"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Restaurant Les Coques",
+          "details": "Modernist-era building · €25-35pp · Traditional Catalan cuisine",
+          "phone": "+34 977 342 173"
+        }
+      ]
+    },
+    {
+      "id": "platja-savinosa-naturist",
+      "number": 10,
+      "title": "L'Ametlla Coastal Trail · Torrent del Pi Naturist Beach",
+      "date": "2025-09-04",
+      "dateDisplay": "Thu, Sep 4",
+      "distance": "6 km",
+      "duration": "3 hrs",
+      "difficulty": "Easy",
+      "specialBadges": ["🏖️ Naturist", "🌊 Wild Coast", "🦅 Bird Watching"],
+      "recommended": true,
+      "region": "tarragona",
+      "location": {
+        "lat": 40.8839,
+        "lon": 0.8025,
+        "name": "L'Ametlla de Mar, Tarragona"
+      },
+      "center": [40.8780, 0.7985],
+      "zoom": 15,
+      "route": [
+        [40.8839, 0.8025],
+        [40.8825, 0.8015],
+        [40.8810, 0.8005],
+        [40.8795, 0.7995],
+        [40.8780, 0.7985],
+        [40.8765, 0.7975],
+        [40.8750, 0.7965],
+        [40.8735, 0.7955],
+        [40.8720, 0.7945],
+        [40.8725, 0.7950],
+        [40.8740, 0.7960],
+        [40.8755, 0.7970],
+        [40.8770, 0.7980],
+        [40.8785, 0.7990],
+        [40.8800, 0.8000],
+        [40.8815, 0.8010],
+        [40.8830, 0.8020],
+        [40.8839, 0.8025]
+      ],
+      "markers": [
+        {
+          "coords": [40.8839, 0.8025],
+          "title": "Start/End",
+          "popup": "<b>L'Ametlla de Mar</b><br>Start/End point"
+        },
+        {
+          "coords": [40.8765, 0.7975],
+          "title": "Cove",
+          "popup": "<b>Cala Llenya</b><br>Red cliffs & pine forest"
+        },
+        {
+          "coords": [40.8720, 0.7945],
+          "title": "Naturist Beach",
+          "popup": "<b>Platja del Torrent del Pi</b><br>Official naturist beach with lagoon"
+        }
+      ],
+      "timeline": [
+        {"time": "9:00am", "activity": "Start from L'Ametlla de Mar center"},
+        {"time": "9:30am", "activity": "Walk south along coastal path to L'Alguer beach"},
+        {"time": "10:00am", "activity": "Coffee break at Chiringuito L'Alguer"},
+        {"time": "10:30am", "activity": "Continue south to Cala Llenya (red cliffs)"},
+        {"time": "11:00am", "activity": "Reach Platja del Torrent del Pi (naturist beach)"},
+        {"time": "11:30am", "activity": "Swimming & sunbathing at naturist beach & lagoon"},
+        {"time": "12:30pm", "activity": "Return via GR-92 coastal trail"},
+        {"time": "1:30pm", "activity": "Lunch at Chiringuito L'Alguer - fresh seafood"}
+      ],
+      "highlights": "Official naturist beach → Hidden secluded coves → Mediterranean pine forests → Bird watching cliffs → Crystal-clear waters → Total privacy",
+      "restaurants": [
+        {
+          "name": "Chiringuito L'Alguer",
+          "details": "Beachside seafood · €20-30pp · Fresh fish daily · Naturist-friendly",
+          "phone": "+34 977 456 789"
+        }
+      ],
+      "description": "One of Catalonia's most beautiful official naturist beaches. The trail connects hidden coves through Mediterranean vegetation, offering complete privacy and stunning sea views."
+    }
+  ]
+}
