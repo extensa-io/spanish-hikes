@@ -108,47 +108,49 @@
       },
       "center": [42.5611, -2.7567],
       "zoom": 14,
-      "route": [
-        [42.5611, -2.7567],
-        [42.5620, -2.7560],
-        [42.5630, -2.7550],
-        [42.5640, -2.7530],
-        [42.5635, -2.7510],
-        [42.5620, -2.7480],
-        [42.5600, -2.7460],
-        [42.5580, -2.7450],
-        [42.5560, -2.7470],
-        [42.5560, -2.7500],
-        [42.5570, -2.7520],
-        [42.5580, -2.7540],
-        [42.5600, -2.7560],
-        [42.5611, -2.7567]
-      ],
-      "markers": [
-        {
-          "coords": [42.5611, -2.7567],
-          "title": "Start/End",
-          "popup": "<b>San Vicente de la Sonsierra</b><br>Start/End"
-        },
-        {
-          "coords": [42.5640, -2.7530],
-          "title": "Castle",
-          "popup": "<b>Castle Ruins</b><br>360° views"
-        },
-        {
-          "coords": [42.5620, -2.7480],
-          "title": "Winery",
-          "popup": "<b>Remelluri</b><br>Exclusive bodega"
-        }
-      ],
       "timeline": [
-        {"time": "8:00am", "activity": "Start from village plaza (weekend, start early)"},
-        {"time": "8:45am", "activity": "Reach castle ruins - 360° views"},
-        {"time": "9:30am", "activity": "Descend through Remelluri vineyards"},
-        {"time": "10:30am", "activity": "Follow Ebro River path"},
-        {"time": "11:00am", "activity": "Complete loop at village"},
-        {"time": "12:00pm", "activity": "Remelluri bodega tour (BOOK AHEAD!)"},
-        {"time": "2:30pm", "activity": "Late lunch with castle views"}
+        {
+          "time": "8:00am",
+          "activity": "Start from village plaza (weekend, start early)",
+          "coords": [42.5611, -2.7567],
+          "place": "San Vicente Plaza"
+        },
+        {
+          "time": "8:45am",
+          "activity": "Reach castle ruins - 360° views",
+          "coords": [42.5640, -2.7530],
+          "place": "Castle Ruins"
+        },
+        {
+          "time": "9:30am",
+          "activity": "Descend through Remelluri vineyards",
+          "coords": [42.5620, -2.7480],
+          "place": "Remelluri Vineyards"
+        },
+        {
+          "time": "10:30am",
+          "activity": "Follow Ebro River path",
+          "coords": [42.5560, -2.7500],
+          "place": "Ebro River Path"
+        },
+        {
+          "time": "11:00am",
+          "activity": "Complete loop at village",
+          "coords": [42.5611, -2.7567],
+          "place": "San Vicente Plaza"
+        },
+        {
+          "time": "12:00pm",
+          "activity": "Remelluri bodega tour (BOOK AHEAD!)",
+          "coords": [42.5620, -2.7480],
+          "place": "Bodega Remelluri"
+        },
+        {
+          "time": "2:30pm",
+          "activity": "Late lunch with castle views",
+          "coords": [42.5611, -2.7567],
+          "place": "Restaurant in Village"
+        }
       ],
       "highlights": "12th-century castle → Remelluri vineyards → Ebro River → Guardian huts → Harvest preparations visible",
       "wineries": [

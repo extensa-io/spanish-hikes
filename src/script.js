@@ -1,3 +1,6 @@
+// Global variable to store routes data
+let routesData = null;
+
 // Load routes data and generate HTML
 window.addEventListener('DOMContentLoaded', function() {
     loadRoutesData();
@@ -7,11 +10,12 @@ async function loadRoutesData() {
     try {
         const response = await fetch('routes-data.json');
         const data = await response.json();
+        routesData = data.routes; // Store for map initialization
         generateRouteCards(data.routes);
         
         // Initialize maps after routes are generated
         if (typeof L !== 'undefined' && !window.location.href.includes('claude.ai')) {
-            initializeMaps();
+            initializeMapsFromData();
         }
     } catch (error) {
         console.error('Error loading routes data:', error);
@@ -248,8 +252,90 @@ function createDescriptionSection(description) {
 }
 
 
+function initializeMapsFromData() {
+    console.log('Initializing maps from data...');
+    
+    if (!routesData) {
+        console.error('No routes data available');
+        return;
+    }
+    
+    routesData.forEach(route => {
+        const mapElement = document.getElementById(`map${route.number}`);
+        if (mapElement) {
+            mapElement.innerHTML = '';
+            
+            // Get coordinates from timeline or route array
+            let routeCoords = [];
+            if (route.timeline) {
+                route.timeline.forEach(item => {
+                    if (item.coords) {
+                        routeCoords.push(item.coords);
+                    }
+                });
+            }
+            
+            // Fallback to route array if no timeline coords
+            if (routeCoords.length === 0 && route.route) {
+                routeCoords = route.route;
+            }
+            
+            // Skip if no coordinates available
+            if (routeCoords.length === 0) {
+                console.warn(`No coordinates for route ${route.number}`);
+                return;
+            }
+            
+            // Create map
+            const map = L.map(`map${route.number}`, {
+                center: route.center || routeCoords[0],
+                zoom: route.zoom || 14,
+                zoomControl: false
+            });
+            
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '© OpenStreetMap'
+            }).addTo(map);
+            
+            // Add route line
+            const polyline = L.polyline(routeCoords, {
+                color: route.region === 'rioja' ? '#667eea' : 
+                       route.region === 'costa-brava' ? '#2ecc71' :
+                       route.region === 'penedes' ? '#f1c40f' : '#3498db',
+                weight: 4,
+                opacity: 0.7,
+                smoothFactor: 1
+            }).addTo(map);
+            
+            // Add markers from timeline
+            if (route.timeline) {
+                route.timeline.forEach((item, index) => {
+                    if (item.coords && item.place) {
+                        const isStartEnd = index === 0 || index === route.timeline.length - 1;
+                        L.marker(item.coords, {
+                            title: item.place
+                        }).addTo(map)
+                        .bindPopup(`<b>${item.place}</b><br>${item.time}: ${item.activity}`);
+                    }
+                });
+            } else if (route.markers) {
+                // Fallback to old markers format
+                route.markers.forEach(marker => {
+                    L.marker(marker.coords, {
+                        title: marker.title
+                    }).addTo(map)
+                    .bindPopup(marker.popup);
+                });
+            }
+            
+            // Fit map to route
+            map.fitBounds(polyline.getBounds());
+        }
+    });
+}
+
 function initializeMaps() {
-    console.log('Initializing maps...');
+    console.log('Initializing maps (old method)...');
     // Route 1: Briones
     const map1Element = document.getElementById('map1');
     if (map1Element) {
