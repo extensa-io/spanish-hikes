@@ -39,42 +39,34 @@ function createGoogleMapsUrl(route) {
         // First coordinate as origin
         url += `&origin=${route.route[0][0]},${route.route[0][1]}`;
         
-        // Last coordinate as destination
+        // Last coordinate as destination (check if it's circular route)
         const lastIdx = route.route.length - 1;
-        url += `&destination=${route.route[lastIdx][0]},${route.route[lastIdx][1]}`;
+        const isCircular = route.route[0][0] === route.route[lastIdx][0] && 
+                          route.route[0][1] === route.route[lastIdx][1];
         
-        // Add ALL intermediate points as waypoints (Google Maps allows up to 25)
+        if (isCircular && route.route.length > 1) {
+            // For circular routes, use the second-to-last point as destination
+            url += `&destination=${route.route[0][0]},${route.route[0][1]}`;
+        } else {
+            url += `&destination=${route.route[lastIdx][0]},${route.route[lastIdx][1]}`;
+        }
+        
+        // Add ALL intermediate points as waypoints (Google Maps allows up to 25 waypoints)
         if (route.route.length > 2) {
             const waypoints = [];
-            // Skip first and last, include all others (up to 23 waypoints)
-            const maxWaypoints = 23;
-            const totalPoints = route.route.length - 2;
+            const maxWaypoints = 23; // Google allows 25 total, minus origin and destination
             
-            if (totalPoints <= maxWaypoints) {
-                // Include all points if we're under the limit
-                for (let i = 1; i < route.route.length - 1; i++) {
-                    waypoints.push(`${route.route[i][0]},${route.route[i][1]}`);
-                }
-            } else {
-                // If too many points, sample evenly but include key markers
-                const step = Math.ceil(totalPoints / maxWaypoints);
-                for (let i = 1; i < route.route.length - 1; i += step) {
-                    waypoints.push(`${route.route[i][0]},${route.route[i][1]}`);
-                }
+            // For circular routes, exclude the duplicate end point
+            const endIndex = isCircular ? route.route.length - 1 : route.route.length - 1;
+            
+            // Include all intermediate points
+            for (let i = 1; i < endIndex; i++) {
+                waypoints.push(`${route.route[i][0]},${route.route[i][1]}`);
                 
-                // Also ensure markers are included
-                if (route.markers) {
-                    for (let i = 1; i < route.markers.length - 1; i++) {
-                        const markerCoord = `${route.markers[i].coords[0]},${route.markers[i].coords[1]}`;
-                        if (!waypoints.includes(markerCoord)) {
-                            // Replace nearest waypoint with marker location
-                            if (waypoints.length >= maxWaypoints) {
-                                waypoints[Math.floor(i * maxWaypoints / route.markers.length)] = markerCoord;
-                            } else {
-                                waypoints.push(markerCoord);
-                            }
-                        }
-                    }
+                // Stop if we hit the waypoint limit
+                if (waypoints.length >= maxWaypoints) {
+                    console.warn(`Route ${route.number} has more than ${maxWaypoints} waypoints, truncating`);
+                    break;
                 }
             }
             
@@ -84,6 +76,7 @@ function createGoogleMapsUrl(route) {
         }
     }
     
+    console.log(`Route ${route.number} URL:`, url);
     return url;
 }
 
