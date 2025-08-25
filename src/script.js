@@ -34,34 +34,46 @@ function createGoogleMapsUrl(route) {
     // Set travel mode to walking
     url += '&travelmode=walking';
     
-    // Use ALL route coordinates to match the displayed path exactly
-    if (route.route && route.route.length > 0) {
+    // Check if we have timeline with coords (new format)
+    const timelineCoords = [];
+    if (route.timeline) {
+        route.timeline.forEach(item => {
+            if (item.coords) {
+                timelineCoords.push(item.coords);
+            }
+        });
+    }
+    
+    // Use timeline coords if available, otherwise fall back to route array
+    const routeCoords = timelineCoords.length > 0 ? timelineCoords : route.route;
+    
+    if (routeCoords && routeCoords.length > 0) {
         // First coordinate as origin
-        url += `&origin=${route.route[0][0]},${route.route[0][1]}`;
+        url += `&origin=${routeCoords[0][0]},${routeCoords[0][1]}`;
         
         // Last coordinate as destination (check if it's circular route)
-        const lastIdx = route.route.length - 1;
-        const isCircular = route.route[0][0] === route.route[lastIdx][0] && 
-                          route.route[0][1] === route.route[lastIdx][1];
+        const lastIdx = routeCoords.length - 1;
+        const isCircular = routeCoords[0][0] === routeCoords[lastIdx][0] && 
+                          routeCoords[0][1] === routeCoords[lastIdx][1];
         
-        if (isCircular && route.route.length > 1) {
-            // For circular routes, use the second-to-last point as destination
-            url += `&destination=${route.route[0][0]},${route.route[0][1]}`;
+        if (isCircular && routeCoords.length > 1) {
+            // For circular routes, use the same point as destination
+            url += `&destination=${routeCoords[0][0]},${routeCoords[0][1]}`;
         } else {
-            url += `&destination=${route.route[lastIdx][0]},${route.route[lastIdx][1]}`;
+            url += `&destination=${routeCoords[lastIdx][0]},${routeCoords[lastIdx][1]}`;
         }
         
         // Add ALL intermediate points as waypoints (Google Maps allows up to 25 waypoints)
-        if (route.route.length > 2) {
+        if (routeCoords.length > 2) {
             const waypoints = [];
             const maxWaypoints = 23; // Google allows 25 total, minus origin and destination
             
             // For circular routes, exclude the duplicate end point
-            const endIndex = isCircular ? route.route.length - 1 : route.route.length - 1;
+            const endIndex = isCircular ? routeCoords.length - 1 : routeCoords.length - 1;
             
             // Include all intermediate points
             for (let i = 1; i < endIndex; i++) {
-                waypoints.push(`${route.route[i][0]},${route.route[i][1]}`);
+                waypoints.push(`${routeCoords[i][0]},${routeCoords[i][1]}`);
                 
                 // Stop if we hit the waypoint limit
                 if (waypoints.length >= maxWaypoints) {

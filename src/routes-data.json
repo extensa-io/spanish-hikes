@@ -19,43 +19,61 @@
       },
       "center": [42.5456, -2.7850],
       "zoom": 14,
-      "route": [
-        [42.5456, -2.7850],
-        [42.5440, -2.7820],
-        [42.5420, -2.7790],
-        [42.5380, -2.7750],
-        [42.5350, -2.7700],
-        [42.5330, -2.7650],
-        [42.5340, -2.7630],
-        [42.5380, -2.7680],
-        [42.5420, -2.7750],
-        [42.5440, -2.7800],
-        [42.5456, -2.7850]
-      ],
-      "markers": [
-        {
-          "coords": [42.5456, -2.7850],
-          "title": "Start/End",
-          "popup": "<b>Briones Village</b><br>Start/End point"
-        },
-        {
-          "coords": [42.5380, -2.7750],
-          "title": "Winery",
-          "popup": "<b>Dinastía Vivanco</b><br>Wine Museum"
-        },
-        {
-          "coords": [42.5330, -2.7650],
-          "title": "Winery",
-          "popup": "<b>Finca Valpiedra</b><br>Single Estate"
-        }
-      ],
       "timeline": [
-        {"time": "7:30am", "activity": "Start from Briones plaza (cool morning, 18°C)"},
-        {"time": "8:30am", "activity": "Descend through terraced vineyards"},
-        {"time": "10:30am", "activity": "Return to village via panoramic trail"},
-        {"time": "11:30am", "activity": "Dinastía Vivanco wine museum tour"},
-        {"time": "2:00pm", "activity": "Lunch at Mesón Plaza (reserve ahead)"},
-        {"time": "4:00pm", "activity": "Finca Valpiedra tasting (cooler afternoon)"}
+        {
+          "time": "7:30am", 
+          "activity": "Start from Briones plaza (cool morning, 18°C)",
+          "coords": [42.5456, -2.7850],
+          "place": "Briones Village Plaza"
+        },
+        {
+          "time": "8:30am", 
+          "activity": "Descend through terraced vineyards",
+          "coords": [42.5420, -2.7790],
+          "place": "Terrace Viewpoint"
+        },
+        {
+          "time": "9:30am",
+          "activity": "Pass traditional guardian huts",
+          "coords": [42.5380, -2.7750],
+          "place": "Guardian Huts Area"
+        },
+        {
+          "time": "10:30am", 
+          "activity": "Valley bottom with Ebro views",
+          "coords": [42.5340, -2.7630],
+          "place": "Ebro Valley Viewpoint"
+        },
+        {
+          "time": "11:00am",
+          "activity": "Return to village via panoramic trail",
+          "coords": [42.5440, -2.7800],
+          "place": "Panoramic Trail"
+        },
+        {
+          "time": "11:30am", 
+          "activity": "Dinastía Vivanco wine museum tour",
+          "coords": [42.5380, -2.7750],
+          "place": "Dinastía Vivanco"
+        },
+        {
+          "time": "2:00pm", 
+          "activity": "Lunch at Mesón Plaza (reserve ahead)",
+          "coords": [42.5456, -2.7850],
+          "place": "Mesón Plaza Restaurant"
+        },
+        {
+          "time": "4:00pm", 
+          "activity": "Finca Valpiedra tasting (cooler afternoon)",
+          "coords": [42.5330, -2.7650],
+          "place": "Finca Valpiedra"
+        },
+        {
+          "time": "5:30pm",
+          "activity": "Return to Briones plaza",
+          "coords": [42.5456, -2.7850],
+          "place": "Briones Village Plaza"
+        }
       ],
       "highlights": "Medieval hilltop village → Dinastía Vivanco museum → Finca Valpiedra bodega → Sierra de Cantabria views → Traditional guardian huts",
       "wineries": [
