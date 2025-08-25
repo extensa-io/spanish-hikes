@@ -185,44 +185,49 @@
       },
       "center": [42.4167, -2.7333],
       "zoom": 13,
-      "route": [
-        [42.4167, -2.7333],
-        [42.4180, -2.7300],
-        [42.4180, -2.7280],
-        [42.4190, -2.7250],
-        [42.4200, -2.7230],
-        [42.4210, -2.7210],
-        [42.4230, -2.7180],
-        [42.4250, -2.7130],
-        [42.4240, -2.7110],
-        [42.4220, -2.7100],
-        [42.4200, -2.7120],
-        [42.4180, -2.7150],
-        [42.4160, -2.7200],
-        [42.4150, -2.7250],
-        [42.4160, -2.7300],
-        [42.4167, -2.7333]
-      ],
-      "markers": [
+      "timeline": [
         {
+          "time": "9:00am",
+          "activity": "Start from Nájera main plaza",
           "coords": [42.4167, -2.7333],
-          "title": "Start/End",
-          "popup": "<b>Nájera</b><br>Start/End"
+          "place": "Nájera Plaza"
         },
         {
+          "time": "9:30am",
+          "activity": "Follow Najerilla River path (cool morning)",
+          "coords": [42.4180, -2.7280],
+          "place": "Najerilla River Path"
+        },
+        {
+          "time": "10:30am",
+          "activity": "Visit Santa María la Real monastery",
           "coords": [42.4200, -2.7230],
-          "title": "Monastery",
-          "popup": "<b>Santa María la Real</b>"
+          "place": "Santa María la Real"
+        },
+        {
+          "time": "11:30am",
+          "activity": "Ascend through vineyard terraces",
+          "coords": [42.4230, -2.7180],
+          "place": "Vineyard Terraces"
+        },
+        {
+          "time": "12:30pm",
+          "activity": "Reach high viewpoint",
+          "coords": [42.4250, -2.7130],
+          "place": "High Viewpoint"
+        },
+        {
+          "time": "1:30pm",
+          "activity": "Return via Tricio direction",
+          "coords": [42.4220, -2.7100],
+          "place": "Tricio Path"
+        },
+        {
+          "time": "2:30pm",
+          "activity": "Complete loop back to Nájera",
+          "coords": [42.4167, -2.7333],
+          "place": "Nájera Plaza"
         }
-      ],
-      "timeline": [
-        {"time": "9:00am", "activity": "Start from Nájera main plaza"},
-        {"time": "9:30am", "activity": "Follow Najerilla River path (cool morning)"},
-        {"time": "10:30am", "activity": "Visit Santa María la Real monastery"},
-        {"time": "11:30am", "activity": "Ascend through vineyard terraces"},
-        {"time": "12:30pm", "activity": "Reach high viewpoint"},
-        {"time": "1:30pm", "activity": "Return via Tricio direction"},
-        {"time": "2:30pm", "activity": "Complete loop back to Nájera"}
       ],
       "description": "This is the longest route - consider for a cooler day or split into two shorter walks."
     },
@@ -245,52 +250,49 @@
       },
       "center": [41.1350, 1.3850],
       "zoom": 14,
-      "route": [
-        [41.1350, 1.3850],
-        [41.1355, 1.3845],
-        [41.1360, 1.3840],
-        [41.1365, 1.3835],
-        [41.1370, 1.3830],
-        [41.1375, 1.3825],
-        [41.1380, 1.3820],
-        [41.1385, 1.3815],
-        [41.1390, 1.3810],
-        [41.1395, 1.3805],
-        [41.1390, 1.3800],
-        [41.1385, 1.3805],
-        [41.1380, 1.3810],
-        [41.1375, 1.3815],
-        [41.1370, 1.3820],
-        [41.1365, 1.3825],
-        [41.1360, 1.3830],
-        [41.1355, 1.3835],
-        [41.1350, 1.3850]
-      ],
-      "markers": [
-        {
-          "coords": [41.1350, 1.3850],
-          "title": "Start/End",
-          "popup": "<b>Altafulla Beach</b><br>Start/End + Swimming"
-        },
-        {
-          "coords": [41.1365, 1.3835],
-          "title": "Roman Site",
-          "popup": "<b>Villa dels Munts</b><br>Roman ruins"
-        },
-        {
-          "coords": [41.1395, 1.3805],
-          "title": "Castle",
-          "popup": "<b>Tamarit Castle</b><br>Medieval castle"
-        }
-      ],
       "timeline": [
-        {"time": "8:30am", "activity": "Start from Altafulla beach parking"},
-        {"time": "9:30am", "activity": "Explore Villa dels Munts Roman ruins"},
-        {"time": "10:30am", "activity": "Coastal path to Tamarit Castle"},
-        {"time": "11:30am", "activity": "Loop back through vineyards"},
-        {"time": "12:00pm", "activity": "Beach swim (water 24°C! 🏊)"},
-        {"time": "1:30pm", "activity": "Seafood lunch at beach restaurant"},
-        {"time": "3:30pm", "activity": "Avgvstvs Forvm winery visit"}
+        {
+          "time": "8:30am",
+          "activity": "Start from Altafulla beach parking",
+          "coords": [41.1350, 1.3850],
+          "place": "Altafulla Beach"
+        },
+        {
+          "time": "9:30am",
+          "activity": "Explore Villa dels Munts Roman ruins",
+          "coords": [41.1365, 1.3835],
+          "place": "Villa dels Munts"
+        },
+        {
+          "time": "10:30am",
+          "activity": "Coastal path to Tamarit Castle",
+          "coords": [41.1395, 1.3805],
+          "place": "Tamarit Castle"
+        },
+        {
+          "time": "11:30am",
+          "activity": "Loop back through vineyards",
+          "coords": [41.1380, 1.3820],
+          "place": "DO Tarragona Vineyards"
+        },
+        {
+          "time": "12:00pm",
+          "activity": "Beach swim (water 24°C! 🏊)",
+          "coords": [41.1350, 1.3850],
+          "place": "Altafulla Beach"
+        },
+        {
+          "time": "1:30pm",
+          "activity": "Seafood lunch at beach restaurant",
+          "coords": [41.1350, 1.3850],
+          "place": "Beach Restaurant"
+        },
+        {
+          "time": "3:30pm",
+          "activity": "Avgvstvs Forvm winery visit",
+          "coords": [41.1355, 1.3845],
+          "place": "Avgvstvs Forvm"
+        }
       ],
       "highlights": "2nd-century Roman villa → Medieval castle on cliff → Mediterranean coastal path → DO Tarragona vineyards → Two beaches for swimming",
       "wineries": [
@@ -320,49 +322,49 @@
       },
       "center": [41.1467, 0.8206],
       "zoom": 14,
-      "route": [
-        [41.1467, 0.8206],
-        [41.1480, 0.8220],
-        [41.1490, 0.8250],
-        [41.1510, 0.8270],
-        [41.1520, 0.8280],
-        [41.1540, 0.8290],
-        [41.1550, 0.8300],
-        [41.1545, 0.8320],
-        [41.1540, 0.8350],
-        [41.1520, 0.8340],
-        [41.1500, 0.8330],
-        [41.1480, 0.8300],
-        [41.1470, 0.8280],
-        [41.1460, 0.8240],
-        [41.1465, 0.8220],
-        [41.1467, 0.8206]
-      ],
-      "markers": [
-        {
-          "coords": [41.1467, 0.8206],
-          "title": "Start/End",
-          "popup": "<b>Falset</b><br>Start/End"
-        },
-        {
-          "coords": [41.1520, 0.8280],
-          "title": "Cooperative",
-          "popup": "<b>Wine Cooperative</b><br>Modernist building"
-        },
-        {
-          "coords": [41.1550, 0.8300],
-          "title": "Viewpoint",
-          "popup": "<b>Montsant Views</b><br>Panoramic point"
-        }
-      ],
       "timeline": [
-        {"time": "7:30am", "activity": "Early start (inland = warmer)"},
-        {"time": "8:30am", "activity": "See harvest workers in vineyards"},
-        {"time": "10:00am", "activity": "Reach mountain viewpoint"},
-        {"time": "10:30am", "activity": "Arrive at Celler Cooperatiu"},
-        {"time": "11:00am", "activity": "Tour modernist cooperative"},
-        {"time": "1:00pm", "activity": "Lunch in Falset main plaza"},
-        {"time": "3:00pm", "activity": "Portal del Montsant tasting"}
+        {
+          "time": "7:30am",
+          "activity": "Early start (inland = warmer)",
+          "coords": [41.1467, 0.8206],
+          "place": "Falset Plaza"
+        },
+        {
+          "time": "8:30am",
+          "activity": "See harvest workers in vineyards",
+          "coords": [41.1490, 0.8250],
+          "place": "Vineyard Terraces"
+        },
+        {
+          "time": "10:00am",
+          "activity": "Reach mountain viewpoint",
+          "coords": [41.1550, 0.8300],
+          "place": "Montsant Viewpoint"
+        },
+        {
+          "time": "10:30am",
+          "activity": "Arrive at Celler Cooperatiu",
+          "coords": [41.1520, 0.8280],
+          "place": "Celler Cooperatiu"
+        },
+        {
+          "time": "11:00am",
+          "activity": "Tour modernist cooperative",
+          "coords": [41.1520, 0.8280],
+          "place": "Wine Cooperative"
+        },
+        {
+          "time": "1:00pm",
+          "activity": "Lunch in Falset main plaza",
+          "coords": [41.1467, 0.8206],
+          "place": "Falset Plaza"
+        },
+        {
+          "time": "3:00pm",
+          "activity": "Portal del Montsant tasting",
+          "coords": [41.1470, 0.8210],
+          "place": "Portal del Montsant"
+        }
       ],
       "highlights": "Montsant DO vineyards → Modernist architecture → Mountain hermitages → Harvest activity → Old vine Garnacha",
       "wineries": [
@@ -397,43 +399,43 @@
       },
       "center": [41.1189, 1.2445],
       "zoom": 13,
-      "route": [
-        [41.1147, 1.2589],
-        [41.1160, 1.2570],
-        [41.1180, 1.2550],
-        [41.1210, 1.2520],
-        [41.1250, 1.2480],
-        [41.1290, 1.2440],
-        [41.1320, 1.2400],
-        [41.1310, 1.2380],
-        [41.1280, 1.2350],
-        [41.1250, 1.2360],
-        [41.1230, 1.2380],
-        [41.1200, 1.2420],
-        [41.1180, 1.2450],
-        [41.1160, 1.2500],
-        [41.1150, 1.2550],
-        [41.1147, 1.2589]
-      ],
-      "markers": [
+      "timeline": [
         {
+          "time": "8:00am",
+          "activity": "Start from Roman Amphitheatre",
           "coords": [41.1147, 1.2589],
-          "title": "Start/End",
-          "popup": "<b>Roman Amphitheatre</b><br>Start/End"
+          "place": "Roman Amphitheatre"
         },
         {
+          "time": "8:30am",
+          "activity": "Walk through old town to Mediterranean Balcony",
+          "coords": [41.1150, 1.2550],
+          "place": "Mediterranean Balcony"
+        },
+        {
+          "time": "9:30am",
+          "activity": "Hike north towards Pont del Diable",
+          "coords": [41.1250, 1.2480],
+          "place": "North Trail"
+        },
+        {
+          "time": "11:00am",
+          "activity": "Explore Roman aqueduct (best morning light)",
           "coords": [41.1320, 1.2400],
-          "title": "Aqueduct",
-          "popup": "<b>Pont del Diable</b><br>Roman aqueduct"
+          "place": "Pont del Diable"
+        },
+        {
+          "time": "12:30pm",
+          "activity": "Return via vineyard paths",
+          "coords": [41.1250, 1.2360],
+          "place": "Vineyard Paths"
+        },
+        {
+          "time": "1:30pm",
+          "activity": "Lunch in historic Tarragona center",
+          "coords": [41.1147, 1.2589],
+          "place": "Tarragona Center"
         }
-      ],
-      "timeline": [
-        {"time": "8:00am", "activity": "Start from Roman Amphitheatre"},
-        {"time": "8:30am", "activity": "Walk through old town to Mediterranean Balcony"},
-        {"time": "9:30am", "activity": "Hike north towards Pont del Diable"},
-        {"time": "11:00am", "activity": "Explore Roman aqueduct (best morning light)"},
-        {"time": "12:30pm", "activity": "Return via vineyard paths"},
-        {"time": "1:30pm", "activity": "Lunch in historic Tarragona center"}
       ],
       "highlights": "Roman amphitheatre → UNESCO World Heritage sites → Pont del Diable aqueduct → Mediterranean balcony → Historic city center",
       "description": "UNESCO sites less crowded early morning. Combine with city exploration day."
@@ -457,46 +459,49 @@
       },
       "center": [41.9574, 3.2108],
       "zoom": 14,
-      "route": [
-        [41.9574, 3.2108],
-        [41.9580, 3.2120],
-        [41.9590, 3.2140],
-        [41.9610, 3.2180],
-        [41.9630, 3.2200],
-        [41.9650, 3.2220],
-        [41.9660, 3.2240],
-        [41.9670, 3.2260],
-        [41.9675, 3.2280],
-        [41.9680, 3.2300],
-        [41.9685, 3.2320],
-        [41.9690, 3.2340],
-        [41.9574, 3.2108]
-      ],
-      "markers": [
-        {
-          "coords": [41.9574, 3.2108],
-          "title": "Start",
-          "popup": "<b>Begur Village</b><br>Medieval watchtowers"
-        },
-        {
-          "coords": [41.9650, 3.2220],
-          "title": "Viewpoint",
-          "popup": "<b>Cala Aiguablava</b><br>Panoramic sea views"
-        },
-        {
-          "coords": [41.9690, 3.2340],
-          "title": "Beach",
-          "popup": "<b>Sa Tuna Cove</b><br>Hidden fisherman's beach"
-        }
-      ],
       "timeline": [
-        {"time": "8:00am", "activity": "Start from Begur's medieval center"},
-        {"time": "8:30am", "activity": "Descend to Cala Aiguablava via pine forest"},
-        {"time": "9:30am", "activity": "Walk clifftop path with dramatic sea views"},
-        {"time": "10:30am", "activity": "Reach hidden Cala Fornells"},
-        {"time": "11:30am", "activity": "Continue to Sa Tuna cove"},
-        {"time": "12:00pm", "activity": "Swimming & seafood lunch at Sa Tuna"},
-        {"time": "2:00pm", "activity": "Return via inland shepherd trails"}
+        {
+          "time": "8:00am",
+          "activity": "Start from Begur's medieval center",
+          "coords": [41.9574, 3.2108],
+          "place": "Begur Village"
+        },
+        {
+          "time": "8:30am",
+          "activity": "Descend to Cala Aiguablava via pine forest",
+          "coords": [41.9610, 3.2180],
+          "place": "Pine Forest Trail"
+        },
+        {
+          "time": "9:30am",
+          "activity": "Walk clifftop path with dramatic sea views",
+          "coords": [41.9650, 3.2220],
+          "place": "Cala Aiguablava"
+        },
+        {
+          "time": "10:30am",
+          "activity": "Reach hidden Cala Fornells",
+          "coords": [41.9670, 3.2260],
+          "place": "Cala Fornells"
+        },
+        {
+          "time": "11:30am",
+          "activity": "Continue to Sa Tuna cove",
+          "coords": [41.9690, 3.2340],
+          "place": "Sa Tuna Cove"
+        },
+        {
+          "time": "12:00pm",
+          "activity": "Swimming & seafood lunch at Sa Tuna",
+          "coords": [41.9690, 3.2340],
+          "place": "Sa Tuna Beach Restaurant"
+        },
+        {
+          "time": "2:00pm",
+          "activity": "Return via inland shepherd trails",
+          "coords": [41.9574, 3.2108],
+          "place": "Begur Village"
+        }
       ],
       "highlights": "Medieval Begur towers → Dramatic limestone cliffs → Crystal-clear coves → Traditional fishing village → Pine forest trails",
       "wineries": [
@@ -526,44 +531,43 @@
       },
       "center": [41.4292, 1.7886],
       "zoom": 14,
-      "route": [
-        [41.4292, 1.7886],
-        [41.4310, 1.7900],
-        [41.4330, 1.7920],
-        [41.4350, 1.7940],
-        [41.4370, 1.7960],
-        [41.4380, 1.7980],
-        [41.4375, 1.8000],
-        [41.4360, 1.8020],
-        [41.4340, 1.8010],
-        [41.4320, 1.7990],
-        [41.4300, 1.7970],
-        [41.4292, 1.7886]
-      ],
-      "markers": [
-        {
-          "coords": [41.4292, 1.7886],
-          "title": "Start",
-          "popup": "<b>Sant Sadurní Station</b><br>Capital of Cava"
-        },
-        {
-          "coords": [41.4350, 1.7940],
-          "title": "Hidden Cellar",
-          "popup": "<b>Celler Bohigas</b><br>Family secret since 1924"
-        },
-        {
-          "coords": [41.4380, 1.7980],
-          "title": "Underground",
-          "popup": "<b>Caves Sumarroca</b><br>Historic underground cellars"
-        }
-      ],
       "timeline": [
-        {"time": "10:00am", "activity": "Meet at Sant Sadurní train station"},
-        {"time": "10:30am", "activity": "Walk through historic vine terraces"},
-        {"time": "11:30am", "activity": "Celler Bohigas - family secrets tasting"},
-        {"time": "1:00pm", "activity": "Hidden lunch at Cal Blay Vinticinc"},
-        {"time": "3:00pm", "activity": "Sumarroca underground caves tour"},
-        {"time": "4:30pm", "activity": "Return via ancient Roman road"}
+        {
+          "time": "10:00am",
+          "activity": "Meet at Sant Sadurní train station",
+          "coords": [41.4292, 1.7886],
+          "place": "Sant Sadurní Station"
+        },
+        {
+          "time": "10:30am",
+          "activity": "Walk through historic vine terraces",
+          "coords": [41.4330, 1.7920],
+          "place": "Historic Vine Terraces"
+        },
+        {
+          "time": "11:30am",
+          "activity": "Celler Bohigas - family secrets tasting",
+          "coords": [41.4350, 1.7940],
+          "place": "Celler Bohigas"
+        },
+        {
+          "time": "1:00pm",
+          "activity": "Hidden lunch at Cal Blay Vinticinc",
+          "coords": [41.4360, 1.8020],
+          "place": "Cal Blay Vinticinc"
+        },
+        {
+          "time": "3:00pm",
+          "activity": "Sumarroca underground caves tour",
+          "coords": [41.4380, 1.7980],
+          "place": "Caves Sumarroca"
+        },
+        {
+          "time": "4:30pm",
+          "activity": "Return via ancient Roman road",
+          "coords": [41.4292, 1.7886],
+          "place": "Sant Sadurní Station"
+        }
       ],
       "highlights": "Historic vine terraces → Family-run cellars since 1924 → Underground aging caves → Traditional Catalan cuisine → Roman road remnants",
       "wineries": [
@@ -605,44 +609,43 @@
       },
       "center": [41.1557, 1.1074],
       "zoom": 14,
-      "route": [
-        [41.1557, 1.1074],
-        [41.1570, 1.1080],
-        [41.1580, 1.1090],
-        [41.1590, 1.1100],
-        [41.1600, 1.1110],
-        [41.1610, 1.1120],
-        [41.1605, 1.1130],
-        [41.1595, 1.1125],
-        [41.1585, 1.1115],
-        [41.1575, 1.1105],
-        [41.1565, 1.1090],
-        [41.1557, 1.1074]
-      ],
-      "markers": [
-        {
-          "coords": [41.1557, 1.1074],
-          "title": "Start",
-          "popup": "<b>Gaudí Centre</b><br>Birth city of Antoni Gaudí"
-        },
-        {
-          "coords": [41.1590, 1.1100],
-          "title": "Modernist",
-          "popup": "<b>Casa Navàs</b><br>Lluís Domènech i Montaner"
-        },
-        {
-          "coords": [41.1610, 1.1120],
-          "title": "Vermouth",
-          "popup": "<b>Historic Vermouth Cellars</b><br>Traditional tastings"
-        }
-      ],
       "timeline": [
-        {"time": "10:00am", "activity": "Start at Gaudí Centre Museum"},
-        {"time": "11:00am", "activity": "Walk modernist architecture route"},
-        {"time": "12:00pm", "activity": "Visit Casa Navàs (Domènech i Montaner)"},
-        {"time": "1:00pm", "activity": "Traditional vermouth tasting at historic cellars"},
-        {"time": "2:30pm", "activity": "Lunch at modernist-era restaurant"},
-        {"time": "3:30pm", "activity": "Return via Mercadal shopping district"}
+        {
+          "time": "10:00am",
+          "activity": "Start at Gaudí Centre Museum",
+          "coords": [41.1557, 1.1074],
+          "place": "Gaudí Centre"
+        },
+        {
+          "time": "11:00am",
+          "activity": "Walk modernist architecture route",
+          "coords": [41.1580, 1.1090],
+          "place": "Modernist Quarter"
+        },
+        {
+          "time": "12:00pm",
+          "activity": "Visit Casa Navàs (Domènech i Montaner)",
+          "coords": [41.1590, 1.1100],
+          "place": "Casa Navàs"
+        },
+        {
+          "time": "1:00pm",
+          "activity": "Traditional vermouth tasting at historic cellars",
+          "coords": [41.1610, 1.1120],
+          "place": "Vermuts Miró"
+        },
+        {
+          "time": "2:30pm",
+          "activity": "Lunch at modernist-era restaurant",
+          "coords": [41.1595, 1.1125],
+          "place": "Les Coques Restaurant"
+        },
+        {
+          "time": "3:30pm",
+          "activity": "Return via Mercadal shopping district",
+          "coords": [41.1557, 1.1074],
+          "place": "Mercadal Square"
+        }
       ],
       "highlights": "Gaudí birthplace → Lluís Domènech i Montaner architecture → Historic vermouth cellars → Traditional Catalan modernism → Art nouveau facades",
       "wineries": [
